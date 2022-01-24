@@ -72,12 +72,16 @@
                 >My Brother's Art Gallery</a
             >
         </div>
+        <h5 id="license">Under MIT License (Click To See)</h5>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init({
                 duration: 3000,
                 once: true,
             });
+            document.getElementById("license").onclick = () => {
+                window.open("https://opensource.org/licenses/MIT");
+            };
         </script>
     </body>
 </html>

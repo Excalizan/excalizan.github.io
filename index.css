@@ -2,7 +2,7 @@ body {
     background-color: #18181f;
 }
 
-h1 {
+h1, h5 {
     color: white;
     font-family: "Roboto", cursive;
     display: block;
@@ -25,10 +25,22 @@ a {
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
 }
+
 body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     height: 800px;
     overflow: hidden;
+}
+
+#main_content {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+#license{
+    position: absolute;
+    bottom: 0;
 }
 
 #star-small,
@@ -374,9 +386,3 @@ body {
         transform: translateY(-800px);
     }
 }
-
-#main_content {
-    display: block;
-    text-align: center;
-}
-
