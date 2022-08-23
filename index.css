@@ -12,7 +12,29 @@ h5 {
 	color: white;
 }
 
-a {
+
+#navbar {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbutton {
+	font: 1.5rem 'Roboto', cursive;
+	background-color: rgb(24, 24, 31);
+	border: none;
+	color: white;
+	margin-right: auto;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+.fading-button {
 	font-family: 'Roboto', cursive;
 	font-size: 1.5rem;
 	display: block;
@@ -23,8 +45,9 @@ a {
 	cursor: pointer;
 	text-decoration: none;
 	margin: 10px;
-	color: rgb(255, 255, 255);
-	border: 1px solid rgb(255, 255, 255);
+	color: white;
+	background-color: rgba(24, 24, 31, 20%);
+	border: 1px solid white;
 }
 
 body {

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="contact.css" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
 		<title>Excalizan's Website</title>
 	</head>
 	<body>
-		<h1 id="title">Main Page</h1>
+		<h1 id="title">Contact Info</h1>
 		<hr />
 		<div id="navbar">
 			<a class="navbutton" href="">Home</a>
@@ -27,40 +27,22 @@
 			<a class="navbutton" href="/contact.html">Contact</a>
 		</div>
 		<hr />
+
 		<div id="main_content">
-			<a href="" class="fading-button" data-aos="fade-down">Main Page</a>
-			<br />
-			<a
-				href="/cube/cube.html"
-				class="fading-button"
-				data-aos="fade-right"
-				>The spinning cube</a
-			>
-			<br />
-			<a
-				href="https://www.github.com/excalizan"
-				class="fading-button"
-				data-aos="fade-left"
-				>My Github</a
-			>
-			<br />
-			<a
-				href="https://www.fiverr.com/excalizan"
-				class="fading-button"
-				data-aos="fade-up"
-				>Offer me a job on fiverr!</a
-			>
+			<h2 id="contact">Contact Me</h2>
+			<p id="contact-info">
+				Email: aydinkement24@gmail.com
+				<br />
+				Discord: Excalizan#4613
+				<br />
+				Fiverr: <a id="contact-link" href="https://www.fiverr.com/excalizan">https://www.fiverr.com/excalizan</a>
+				<br />
+				Github: <a id="contact-link" href="https://www.github.com/excalizan">https://www.github.com/excalizan</a>
+				<br />
+				Twitter: <a id="contact-link" href="https://www.twitter.com/excalizan">https://www.twitter.com/excalizan</a>
+				<br />
+			</p>
 		</div>
 		<h5 id="license">Under MIT License (Click To See)</h5>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init({
-				duration: 3000,
-				once: true,
-			})
-			document.getElementById('license').onclick = () => {
-				window.open('https://opensource.org/licenses/MIT')
-			}
-		</script>
 	</body>
 </html>
