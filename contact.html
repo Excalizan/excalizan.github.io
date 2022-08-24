@@ -29,28 +29,48 @@
 		<hr />
 
 		<div id="main_content">
-			<h2 id="contact">Contact Me</h2>
-			<p id="contact-info">
-				Email: aydinkement24@gmail.com
-				<br />
-				Discord: Excalizan#4613
-				<br />
-				Fiverr:
-				<a id="contact-link" href="https://www.fiverr.com/excalizan"
-					>https://www.fiverr.com/excalizan</a
-				>
-				<br />
-				Github:
-				<a id="contact-link" href="https://www.github.com/excalizan"
-					>https://www.github.com/excalizan</a
-				>
-				<br />
-				Twitter:
-				<a id="contact-link" href="https://www.twitter.com/excalizan"
-					>https://www.twitter.com/excalizan</a
-				>
-				<br />
-			</p>
+			<h1>Contact form</h1>
+			<form
+				id="fs-frm"
+				name="simple-contact-form"
+				accept-charset="utf-8"
+				action="https://formspree.io/f/xzbwzrzk"
+				method="post"
+			>
+				<fieldset id="fs-frm-inputs">
+					<label for="full-name">Full Name</label>
+					<input
+						type="text"
+						name="name"
+						id="full-name"
+						placeholder="First and Last Name"
+						required=""
+					/>
+					<label for="email-address">Email Address</label>
+					<input
+						type="email"
+						name="_replyto"
+						id="email-address"
+						placeholder="email@domain.tld"
+						required=""
+					/>
+					<label for="message">Message</label>
+					<textarea
+						rows="5"
+						name="message"
+						id="message"
+						placeholder="Enter your message here"
+						required=""
+					></textarea>
+					<input
+						type="hidden"
+						name="_subject"
+						id="email-subject"
+						value="Contact Form Submission"
+					/>
+				</fieldset>
+				<input type="submit" value="Submit" />
+			</form>
 		</div>
 		<h5 id="license">Under MIT License (Click To See)</h5>
 	</body>
