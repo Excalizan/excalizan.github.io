@@ -12,7 +12,6 @@ h5 {
 	color: white;
 }
 
-
 #navbar {
 	display: flex;
 	justify-content: flex-end;
@@ -32,7 +31,6 @@ h5 {
 	margin: 4px 2px;
 	cursor: pointer;
 }
-
 
 .fading-button {
 	font-family: 'Roboto', cursive;
