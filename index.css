@@ -2,6 +2,10 @@ body {
 	background-color: #18181f;
 }
 
+a {
+  color: #0080ff;
+}
+
 h1,
 h5 {
 	color: white;

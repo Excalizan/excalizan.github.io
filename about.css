@@ -1,1 +1,10 @@
 @import url('index.css');
+
+
+#about {
+	color: white;
+	text-align: center;
+  font-size: 1.15rem;
+  width: 60%;
+  margin: 0 auto;
+}
