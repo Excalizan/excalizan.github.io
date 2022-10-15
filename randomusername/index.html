@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Username</title>
+	</head>
+
+	<body>
+		<p></p>
+
+		<script>
+			// make a request to https://raw.githubusercontent.com/jeanphorn/wordlist/master/usernames.txt
+			const request = new XMLHttpRequest()
+			request.open(
+				'GET',
+				'https://raw.githubusercontent.com/jeanphorn/wordlist/master/usernames.txt',
+				true
+			)
+			request.onload = function () {
+				// split the response into an array
+				const data = this.response.split('\n')
+				// pick a random username
+				const username = data[Math.floor(Math.random() * data.length)]
+				// put the username on with only the username
+				document.querySelector('p').innerText = username
+			}
+
+			request.send()
+		</script>
+	</body>
+</html>
