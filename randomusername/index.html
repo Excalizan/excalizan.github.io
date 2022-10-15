@@ -5,9 +5,7 @@
 	</head>
 
 	<body>
-		<p></p>
-
-		<script>
+		<script defer>
 			// make a request to https://raw.githubusercontent.com/jeanphorn/wordlist/master/usernames.txt
 			const request = new XMLHttpRequest()
 			request.open(
@@ -20,8 +18,8 @@
 				const data = this.response.split('\n')
 				// pick a random username
 				const username = data[Math.floor(Math.random() * data.length)]
-				// put the username on with only the username
-				document.querySelector('p').innerText = username
+				// write the username
+				document.write(username)
 			}
 
 			request.send()
