@@ -6,6 +6,13 @@ a {
   color: #0080ff;
 }
 
+.a4 {
+	text-decoration: none;
+	position: absolute;
+	color: white;
+	animation: animStar 30s linear infinite;
+}
+
 h1,
 h5 {
 	color: white;
